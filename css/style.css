@@ -1,0 +1,46 @@
+body{
+    background-color:black;
+    color:white;
+}
+
+header{
+    padding:10px 0 10px 0;
+    background-color:rgb(32, 32, 32);
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-size:40px;
+    font-family: 'IM Fell DW Pica SC', serif;
+}
+
+.navigation a{
+    font-size:20px;
+    font-family: 'IM Fell DW Pica SC', serif;
+}
+
+.s-title{
+    margin-top:300px;
+    text-align:center;
+}
+
+.s-title-h1{
+    font-size:70px;
+    font-family: Georgia, serif;
+}
+
+.s-title-h2{
+    font-size:30px;
+    font-family: Georgia, serif;
+}
+
+
+.chat{
+    margin-top:310px;
+}
