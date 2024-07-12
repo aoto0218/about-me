@@ -118,6 +118,41 @@ main {
 }
 
 .others{
-    font-size:32px;
+    font-size:25px;
     text-align: center;
+    display:flex;
+    font-family: 'IM Fell DW Pica SC', serif;
+    margin-bottom:100px;
+}
+
+.others p{
+    width:150px;
+}
+
+footer{
+    background-color:rgb(32,32,32);
+}
+
+footer p{
+    font-size:12px;
+    padding:5px 0 5px 20px;
+}
+
+/*.bio-table,.bio-table td{
+    border:white 1px solid;
+}*/
+
+.bio-table{
+    text-align: center;
+    font-size:20px;
+    font-family: "Zen Kurenaido", sans-serif;
+    font-weight: 500;
+}
+
+.bio-table td{
+    height:80px;
+}
+
+.bio-table-w1{
+    width:150px;
 }
