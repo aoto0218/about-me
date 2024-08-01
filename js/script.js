@@ -64,3 +64,14 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+document.querySelectorAll('.back-page').forEach(link => {
+  link.addEventListener('click', function(e) {
+      e.preventDefault();
+      const nextPage = this.href;
+      document.documentElement.classList.add('slide-out');
+      setTimeout(function() {
+          window.location.href = nextPage;
+      }, 250);
+  });
+});

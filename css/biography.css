@@ -1,0 +1,90 @@
+body{
+    background-color:black;
+    color:white;
+}
+
+header{
+    padding:10px 0 10px 0;
+    background-color:rgb(32, 32, 32);
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-size:40px;
+    font-family: 'IM Fell DW Pica SC', serif;
+}
+
+.navigation a{
+    font-size:20px;
+    font-family: 'IM Fell DW Pica SC', serif;
+}
+
+.s-title{
+    margin-top:300px;
+    margin-bottom:100px;
+    text-align:center;
+}
+
+.s-title-h1{
+    font-size:70px;
+    font-family: Georgia, serif;
+}
+
+.s-title-h2{
+    font-size:30px;
+    font-family: Georgia, serif;
+}
+
+.others{
+    font-size:25px;
+    text-align: center;
+    display:flex;
+    font-family: 'IM Fell DW Pica SC', serif;
+    margin-bottom:100px;
+}
+
+.others p{
+    width:150px;
+}
+
+footer{
+    background-color:rgb(32,32,32);
+}
+
+footer p{
+    font-size:12px;
+    padding:5px 0 5px 20px;
+}
+
+.bio-table{
+    text-align: center;
+    font-size:20px;
+    font-family: "Zen Kurenaido", sans-serif;
+    font-weight: 500;
+}
+
+.bio-table td{
+    height:80px;
+    vertical-align: middle;
+}
+
+.bio-table-w1{
+    width:150px;
+}
+
+.bio-table tr {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.bio-table tr.show {
+    opacity: 1;
+    transform: translateX(0);
+}

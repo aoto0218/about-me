@@ -1,0 +1,94 @@
+html{
+    animation: slideIn 0.25s ease-out;
+    overflow-x: hidden;
+    transition: transform 0.5s ease-in-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.slide-out {
+    transform: translateX(100%);
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10000;
+    margin:30px auto 0 30px;
+    font-size:30px;
+}
+
+body{
+    background-color:black;
+    color:white;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s-title{
+    margin-top:300px;
+    margin-bottom:100px;
+    text-align:center;
+}
+
+.s-title-h1{
+    font-size:70px;
+    font-family: Georgia, serif;
+}
+
+.s-title-h2{
+    font-size:30px;
+    font-family: Georgia, serif;
+}
+
+.like-title{
+    font-size:50px;
+    font-family: "Dela Gothic One", sans-serif;
+}
+
+.like-image{
+    margin-top:30px;
+    width:500px;
+    border-radius: 15px;
+}
+
+.like-desc{
+    margin-top:50px;
+    font-size:30px;
+    font-family: "Yusei Magic", sans-serif;
+    text-align:center;
+}
+
+.pc-spec{
+    margin-top:10px;
+    margin-bottom:300px;
+    font-size:25px;
+    font-family: "Zen Kurenaido", sans-serif;
+}
+
+.pc-spec th{
+    width:200px;
+}
+
+.pc-spec td{
+    width:350px;
+}
+
+.pc-spec th,td{
+    border:1px white solid;
+    height:50px;
+    text-align:center;
+    vertical-align: middle;
+}
