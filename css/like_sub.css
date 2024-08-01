@@ -53,6 +53,15 @@ main{
     font-family: Georgia, serif;
 }
 
+footer{
+    background-color:rgb(32,32,32);
+}
+
+footer p{
+    font-size:12px;
+    padding:5px 0 5px 20px;
+}
+
 .like-title{
     font-size:50px;
     font-family: "Dela Gothic One", sans-serif;
@@ -69,11 +78,11 @@ main{
     font-size:30px;
     font-family: "Yusei Magic", sans-serif;
     text-align:center;
+    width:600px;
 }
 
 .pc-spec{
     margin-top:10px;
-    margin-bottom:300px;
     font-size:25px;
     font-family: "Zen Kurenaido", sans-serif;
 }
@@ -91,4 +100,22 @@ main{
     height:50px;
     text-align:center;
     vertical-align: middle;
+}
+
+.like-end{
+    margin-bottom:300px;
+}
+
+.grid{
+    margin-top:30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    width:500px;
+}
+
+.grid img{
+    width:240px;
+    border-radius: 10px;
 }

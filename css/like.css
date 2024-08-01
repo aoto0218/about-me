@@ -72,7 +72,7 @@ footer p{
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
-    width: 800px;  /* コンテナの幅を調整してください */
+    width: 800px;
 }
 
 .like-tile {
