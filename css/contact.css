@@ -1,0 +1,134 @@
+body{
+    background-color:black;
+    color:white;
+}
+
+header{
+    padding:10px 0 10px 0;
+    background-color:rgb(32, 32, 32);
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-size:40px;
+    font-family: 'IM Fell DW Pica SC', serif;
+}
+
+.navigation a{
+    font-size:20px;
+    font-family: 'IM Fell DW Pica SC', serif;
+}
+
+.s-title{
+    margin-top:300px;
+    margin-bottom:100px;
+    text-align:center;
+}
+
+.s-title-h1{
+    font-size:70px;
+    font-family: Georgia, serif;
+}
+
+.s-title-h2{
+    font-size:30px;
+    font-family: Georgia, serif;
+}
+
+.others{
+    font-size:25px;
+    text-align: center;
+    display:flex;
+    font-family: 'IM Fell DW Pica SC', serif;
+    margin-bottom:100px;
+}
+
+.others p{
+    width:150px;
+}
+
+footer{
+    background-color:rgb(32,32,32);
+}
+
+footer p{
+    font-size:12px;
+    padding:5px 0 5px 20px;
+}
+
+.desc{
+    font-size:20px;
+    font-family: Georgia, serif;
+    text-align:center;
+}
+
+.contact-group{
+    margin-top:50px;
+    padding:30px;
+    border-radius:15px;
+    background-color:rgb(73, 73, 73);
+}
+
+.contact-form{
+    font-size:20px;
+    font-family: Georgia, serif;
+}
+
+.contact-form td{
+    height:60px;
+    vertical-align:middle;
+}
+
+.contact-form-textarea td{
+    height:215px;
+}
+/*
+.contact-form-textarea-title{
+    padding-top:10px;
+}*/
+
+.contact-form input, textarea{
+    background-color:white;
+    color:black;
+    border:1px black solid;
+    border-radius: 10px;
+    padding:10px;
+    width:400px;
+    font-family: "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, sans-serif;
+    font-size:13px;
+}
+
+.contact-form textarea{
+    height:200px;
+    resize: none;
+}
+
+.must{
+    background-color:red;
+    padding:3px;
+    font-size:15px;
+    margin-left:20px;
+    margin-right: 10px;
+}
+
+.contact-form-submit{
+    text-align:center;
+}
+
+.contact-form-submit input{
+    /*background-color:black;
+    color:white;*/
+    font-size:16px;
+    font-weight:bold;
+    width:100px;
+    text-align:center;
+    border-radius:20px;
+    border:none;
+    margin-top:50px;
+}
