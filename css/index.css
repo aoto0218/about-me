@@ -139,3 +139,29 @@ footer p{
 .chat > div.show, .chat > img.show {
     opacity: 1;
 }
+
+@media screen and (max-width: 600px){
+    .chat{
+        width:90%;
+    }
+
+    .balloon-left{
+        font-size:20px;
+    }
+
+    .balloon-right{
+        font-size:20px;
+    }
+
+    .shiga{
+        width:300px;
+    }
+
+    .others{
+        font-size:20px;
+    }
+
+    .others p{
+        width:120px;
+    }
+}
