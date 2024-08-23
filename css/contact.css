@@ -190,3 +190,28 @@ footer p{
         transform: translateY(-15px);
     }
 }
+
+@media screen and (max-width: 600px){
+    .desc{
+        font-size:18px;
+        width:90%;
+    }
+
+    .contact-group{
+        width:90%;
+    }
+
+    .contact-form input,textarea{
+        width:100px;
+    }
+    
+    .others{
+        font-size:18px;
+    }
+
+    .others p{
+        width:120px;
+        border:1px rgb(32, 32, 32) solid;
+        border-radius:10px;
+    }
+}

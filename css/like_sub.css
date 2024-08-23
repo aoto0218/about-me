@@ -122,7 +122,32 @@ footer p{
 }
 
 @media screen and (max-width: 600px){
+    .s-title-h1{
+        font-size:50px;
+    }
+    
     .like-image{
         width:90%;
+    }
+
+    .like-desc{
+        font-size:20px;
+        width:80%;
+    }
+
+    .pc-spec{
+        font-size:20px;
+    }
+
+    .pc-spec th{
+        width:120px;
+    }
+
+    .pc-spec td{
+        width:230px;
+    }
+
+    .grid{
+        display:none;
     }
 }
