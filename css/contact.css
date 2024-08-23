@@ -198,13 +198,40 @@ footer p{
     }
 
     .contact-group{
-        width:90%;
+        width:80%;
     }
 
     .contact-form input,textarea{
-        width:100px;
+        width:90%;
     }
-    
+
+    .contact-group table,td, tr {
+        display: block;
+    }
+    /*.contact-form tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+        margin-bottom: 10px;
+    }
+
+    .contact-form td {
+        border: none;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    .contact-form td:before {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        content: attr(data-label);
+        font-weight: bold;
+    }*/
+
     .others{
         font-size:18px;
     }
