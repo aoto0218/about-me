@@ -140,11 +140,24 @@ footer p{
 @media screen and (max-width: 600px){
     .like-grid{
         display:block;
-        width:300px;
+        width:80%;
     }
 
     .like-tile{
         margin-bottom:30px;
+    }
+
+    .like-overlay-title{
+        text-decoration:underline;
+    }
+
+    .like-overlay{
+        background-color:rgba(0, 0, 0,0.5)
+    }
+
+    .like-overlay-desc{
+        opacity: 1;
+        transform: translateY(0);
     }
 
     .others{
