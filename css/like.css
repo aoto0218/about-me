@@ -60,6 +60,7 @@ footer{
 footer p{
     font-size:12px;
     padding:5px 0 5px 20px;
+    font-family: "Roboto", sans-serif;
 }
 
 .like-margin{
@@ -134,4 +135,25 @@ footer p{
 .like-tile:hover .like-overlay-desc {
     opacity: 1;
     transform: translateY(0);
+}
+
+@media screen and (max-width: 600px){
+    .like-grid{
+        display:block;
+        width:300px;
+    }
+
+    .like-tile{
+        margin-bottom:30px;
+    }
+
+    .others{
+        font-size:18px;
+    }
+
+    .others p{
+        width:120px;
+        border:1px rgb(32, 32, 32) solid;
+        border-radius:10px;
+    }
 }
