@@ -9,10 +9,10 @@ document.addEventListener('DOMContentLoaded', function() {
         const rect = element.getBoundingClientRect();
         const elementTop = rect.top + scrollY;
         
-        // 表示開始位置（画面の下から20%）
+        
         const showTrigger = scrollY + windowHeight * 0.8;
   
-        // 要素が表示範囲内にある場合
+        
         if (elementTop < showTrigger && elementTop > scrollY) {
           element.classList.add('show');
         }
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     window.addEventListener('scroll', checkScroll);
-    checkScroll(); // 初期表示時にも実行
+    checkScroll(); 
   });
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -35,14 +35,14 @@ document.addEventListener('DOMContentLoaded', function() {
         const rowTop = rect.top;
         const rowBottom = rect.bottom;
         
-        // 表示開始位置（画面の下から10%）
+        
         const showTrigger = windowHeight * 0.9;
   
-        // 要素が表示範囲内にある場合
+        
         if (rowTop < showTrigger && rowBottom > 0) {
           row.classList.add('show');
         } 
-        // 要素が画面外に出た場合
+        
         else {
           row.classList.remove('show');
         }
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     window.addEventListener('scroll', checkScroll);
-    checkScroll(); // 初期表示時にも実行
+    checkScroll();
 });
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -74,4 +74,21 @@ document.querySelectorAll('.back-page').forEach(link => {
           window.location.href = nextPage;
       }, 250);
   });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+  const form = document.querySelector('.contact-group');
+  
+  const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+          if (entry.isIntersecting) {
+              form.classList.add('visible');
+              observer.unobserve(form);
+          }
+      });
+  }, {
+      threshold: 0.1
+  });
+
+  observer.observe(form);
 });

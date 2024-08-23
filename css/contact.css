@@ -122,8 +122,6 @@ footer p{
 }
 
 .contact-form-submit input{
-    /*background-color:black;
-    color:white;*/
     font-size:16px;
     font-weight:bold;
     width:100px;
@@ -131,4 +129,63 @@ footer p{
     border-radius:20px;
     border:none;
     margin-top:50px;
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.contact-group {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s, transform 1s;
+}
+
+.contact-group.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.mar-top{
+    margin:150px 0 50px 0;
+}
+
+.sns{
+    display:flex;
+}
+
+.bereal{
+    margin-left:100px;
+    border:rgb(32, 32, 32) 1px solid;
+    border-radius:15px;
+    width:160px;
+    height:160px;
+}
+
+.bereal img{
+    margin-top:71px;
+    margin-left:40px;
+}
+
+.sns a {
+    display: inline-block;
+    animation: bounce 3s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
 }
