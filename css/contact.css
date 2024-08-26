@@ -195,8 +195,18 @@ footer p{
         font-size:14px;
     }
 
+    .instagram{
+        width:130px;
+    }
+    
     .bereal{
         margin-left:30px;
+        width:130px;
+        height:130px;
+    }
+
+    .bereal img{
+        margin-top:
     }
 
     .others{
