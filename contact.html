@@ -28,25 +28,23 @@
             <h1 class="s-title-h1">問い合わせ</h1>
             <h2 class="s-title-h2">Contact</h2>
         </div>
-        <p class="desc">ご質問やこのページに関するご意見がございましたら<br>下記のフォームに必要事項をご入力のうえ、送信してください。<br><br>ご入力いただいたメールアドレスに回答を返信させていただきます。<br>（回答までに数日かかる場合がございますので予めご了承ください。）</p>
+        <p class="desc">ご質問やこのページに関するご意見がございましたら<br>下記のフォームに必要事項をご入力のうえ<br>送信してください。<br><br>ご入力いただいたメールアドレスに回答を<br>返信させていただきます。<br>（回答までに数日かかる場合がございますので<br>予めご了承ください。）</p>
         <form class="contact-group">
-            <table class="contact-form">
-                <tr>
-                    <td>お名前<span class="must">必須</span></td>
-                    <td><input type="text" name="氏名" required></td>
-                </tr>
-                <tr>
-                    <td>メールアドレス<span class="must">必須</span></td>
-                    <td><input type="email" name="メールアドレス" required></td>
-                </tr>
-                <tr class="contact-form-textarea">
-                    <td>お問い合わせ内容<span class="must">必須</span></td>
-                    <td><textarea name="お問い合わせ内容" required></textarea></td>
-                </tr>
-                <tr>
-                    <td colspan="2" class="contact-form-submit"><input type="submit" value="送信"></td>
-                </tr>
-            </table>
+            <div>
+                <p>お名前<span class="must">必須</span></p>
+                <input type="text" class="contact-form-input" name="氏名" required>
+            </div>
+            <div>
+                <p>メールアドレス<span class="must">必須</span></p>
+                <input type="email" class="contact-form-input" name="メールアドレス" required>
+            </div>
+            <div>
+                <p>お問い合わせ内容<span class="must">必須</span></p>
+                <textarea name="お問い合わせ内容" class="contact-form-input" required></textarea>
+            </div>
+            <div class="contact-form-submit">
+                <input type="submit" value="送信">
+            </div>
         </form>
         <h2 class="s-title-h2 mar-top">SNS</h2>
         <div class="sns">

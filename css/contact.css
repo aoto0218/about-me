@@ -26,18 +26,18 @@ main {
 }
 
 .s-title{
-    margin-top:300px;
+    margin-top:200px;
     margin-bottom:100px;
     text-align:center;
 }
 
 .s-title-h1{
-    font-size:70px;
+    font-size:50px;
     font-family: Georgia, serif;
 }
 
 .s-title-h2{
-    font-size:30px;
+    font-size:20px;
     font-family: Georgia, serif;
 }
 
@@ -74,38 +74,23 @@ footer p{
     padding:30px;
     border-radius:15px;
     background-color:rgb(73, 73, 73);
-}
-
-.contact-form{
     font-size:20px;
     font-family: Georgia, serif;
 }
 
-.contact-form td{
-    height:60px;
-    vertical-align:middle;
-}
-
-.contact-form-textarea td{
-    height:215px;
-}
-/*
-.contact-form-textarea-title{
-    padding-top:10px;
-}*/
-
-.contact-form input, textarea{
+.contact-form-input{
     background-color:white;
     color:black;
     border:1px black solid;
     border-radius: 10px;
     padding:10px;
-    width:400px;
+    width:500px;
     font-family: "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, sans-serif;
     font-size:13px;
+    margin-bottom:20px;
 }
 
-.contact-form textarea{
+.contact-group textarea{
     height:200px;
     resize: none;
 }
@@ -119,18 +104,18 @@ footer p{
 }
 
 .contact-form-submit{
-    text-align:center;
+    background-color:white;
+    color:black;
+    border-radius: 20px;
+    padding:10px;
+    width:100px;
+    text-align: center;
+    font-family: "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, sans-serif;
+    font-size:18px;
+    font-weight:bold;
+    margin:0 auto;
 }
 
-.contact-form-submit input{
-    font-size:16px;
-    font-weight:bold;
-    width:100px;
-    text-align:center;
-    border-radius:20px;
-    border:none;
-    margin-top:50px;
-}
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -199,38 +184,20 @@ footer p{
 
     .contact-group{
         width:80%;
+        font-size:18px;
     }
 
-    .contact-form input,textarea{
-        width:90%;
+    .contact-form-input{
+        width:100%;
     }
 
-    .contact-group table,td, tr {
-        display: block;
-    }
-    /*.contact-form tr {
-        position: absolute;
-        top: -9999px;
-        left: -9999px;
-        margin-bottom: 10px;
+    .contact-form-submit{
+        font-size:14px;
     }
 
-    .contact-form td {
-        border: none;
-        position: relative;
-        padding-left: 50%;
+    .bereal{
+        margin-left:30px;
     }
-
-    .contact-form td:before {
-        position: absolute;
-        top: 6px;
-        left: 6px;
-        width: 45%;
-        padding-right: 10px;
-        white-space: nowrap;
-        content: attr(data-label);
-        font-weight: bold;
-    }*/
 
     .others{
         font-size:18px;

@@ -38,18 +38,18 @@ main{
 }
 
 .s-title{
-    margin-top:300px;
+    margin-top:200px;
     margin-bottom:100px;
     text-align:center;
 }
 
 .s-title-h1{
-    font-size:70px;
+    font-size:50px;
     font-family: Georgia, serif;
 }
 
 .s-title-h2{
-    font-size:30px;
+    font-size:20px;
     font-family: Georgia, serif;
 }
 
