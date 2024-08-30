@@ -50,7 +50,7 @@ main {
 }
 
 .others p{
-    width:150px;
+    width:160px;
 }
 
 footer{
@@ -193,5 +193,10 @@ footer p{
     .like-overlay-desc{
         opacity: 1;
         transform: translateY(0);
+    }
+
+    .others p{
+        border:1px rgb(32, 32, 32) solid;
+        border-radius:10px;
     }
 }

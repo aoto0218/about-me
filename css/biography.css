@@ -50,7 +50,7 @@ main {
 }
 
 .others p{
-    width:150px;
+    width:160px;
 }
 
 footer{
@@ -109,6 +109,13 @@ footer p{
 
     .others p{
         width:120px;
+        border:1px rgb(32, 32, 32) solid;
+        border-radius:10px;
+    }
+}
+
+@media screen and (max-width: 830px){
+    .others p{
         border:1px rgb(32, 32, 32) solid;
         border-radius:10px;
     }
